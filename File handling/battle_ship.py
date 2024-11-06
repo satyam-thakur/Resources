@@ -7,11 +7,13 @@ def bomb_at(i, j):
         ".....X...",
         "........."
     ]
+    # print (grid[0,5])
     # Check if the coordinates are within the grid and if there's an 'X' at that position
     return 0 <= i < len(grid) and 0 <= j < len(grid[0]) and grid[i][j] == 'X'
+    
 
 # Solution
-grid_length = 9  # Assuming a 9x9 grid based on the example
+grid_length = 8  # Assuming a 9x9 grid based on the example
 battleship_parts = []
 
 for i in range(grid_length):
