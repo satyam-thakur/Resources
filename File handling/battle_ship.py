@@ -1,7 +1,6 @@
 def bomb_at(i, j):
     # Represent the grid as a list of strings
-    grid = [
-        ".........",
+    grid = [".........",
         ".....X...",
         ".....X...",
         ".....X...",
@@ -13,7 +12,7 @@ def bomb_at(i, j):
     
 
 # Solution
-grid_length = 8  # Assuming a 9x9 grid based on the example
+grid_length = 9  # Assuming a 9x9 grid based on the example
 battleship_parts = []
 
 for i in range(grid_length):
@@ -30,3 +29,9 @@ else:
     print(f"Found {len(battleship_parts)} battleship parts, expected 3.")
 
 
+'''
+Gridsize = ?
+check for each element in grid if there exists a ship
+will use function to check the (a, b) position for ship
+res will have 3 arguments, display as head middle and tail
+'''
