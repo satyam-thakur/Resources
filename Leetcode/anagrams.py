@@ -13,4 +13,5 @@ def isanagram(strs: list[str]) -> list[str]:
 
 print(isanagram(['cat','tac','hell','heck']))
 print(isanagram(['eat','tea','tan','ate','nat','bat']))
+print(isanagram(['aaac']))
 
