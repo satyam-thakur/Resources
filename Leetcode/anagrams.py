@@ -15,4 +15,5 @@ print(isanagram(['cat','tac','hell','heck']))
 print(isanagram(['eat','tea','tan','ate','nat','bat'])) 
 print(isanagram(['']))
 print(isanagram(['a']))
+print(isanagram(['a','abcd']))
 
