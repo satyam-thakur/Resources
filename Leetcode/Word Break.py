@@ -10,3 +10,4 @@ class Solution:
         return dp[-1]
     
 print (Solution.wordBreak(None,"leetcode",["leet","code"]))
+

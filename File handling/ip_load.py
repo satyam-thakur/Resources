@@ -1,7 +1,7 @@
 filename = "ip_address.txt"
 
-def load_host(file):
-    with open(file,'r') as f:
+def load_host(filename):
+    with open(filename,'r') as f:
         for ip in f:
             if ip.strip():
                 print (ip)

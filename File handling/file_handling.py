@@ -1,11 +1,11 @@
 ip_address = []
 with open ("ntp_server.log", "r") as log:
     lines = log.readlines()
-    # print(log)
+    print(log)
     for line in lines:
         if "Received" in line:
             words = line.split("(")
-            # print(line)
+            print(line)
             # print(words)
             ip_add = words[1].split(")")
             # print(ip_add)
