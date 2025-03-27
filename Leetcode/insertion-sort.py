@@ -12,3 +12,6 @@ def insertion_sort(Array):
 
 A = [8, 5, 2, 9, 5, 6, 3]
 print(insertion_sort(A))
+
+# O(n^2)
+# O(1)

@@ -1,10 +1,10 @@
 def is_valid_ipv4(ip):
-    parts = ip.split('.')
+    octets = ip.split('.')
     #Check if lenth of decimal points are 4
-    if len(parts) != 4:
+    if len(octets) != 4:
         return False
     
-    for part in parts:
+    for part in octets:
         #Check if each part is digit and with in range 0-255
         if not part.isdigit() and not 0<= int[part] <=255:
             return False

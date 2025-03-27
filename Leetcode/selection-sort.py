@@ -1,9 +1,10 @@
 def selection_sort(Array):
     n = len(Array)
-    print(n)
+    # print(n)
     for i in range (1, n):
+        # print(i)
         for j in range(i,0,-1):
-            print(i,j-1,j)
+            # print(i,j-1,j)
             if Array[j-1] > Array[j]:
                 Array[j], Array[j-1] = Array[j-1], Array[j]
             else:
